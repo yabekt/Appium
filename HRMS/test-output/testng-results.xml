@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="9" total="11" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-01-25T13:35:27 EST" name="Regression Suite" finished-at="2020-01-25T13:36:25 EST" duration-ms="57464">
+    <groups>
+      <group name="regression">
+        <method signature="AddEmpTest.AddEmpValidation()[pri:0, instance:com.hrms.testcases.AddEmpTest@37858383]" name="AddEmpValidation" class="com.hrms.testcases.AddEmpTest"/>
+        <method signature="LoginPagesTest.negativeLogin()[pri:0, instance:com.hrms.testcases.LoginPagesTest@2892dae4]" name="negativeLogin" class="com.hrms.testcases.LoginPagesTest"/>
+      </group> <!-- regression -->
+    </groups>
+    <test started-at="2020-01-25T13:35:27 EST" name="Regression Test" finished-at="2020-01-25T13:36:25 EST" duration-ms="57464">
+      <class name="com.hrms.testcases.AddEmpTest">
+        <test-method is-config="true" signature="generateReports()[pri:0, instance:com.hrms.testcases.AddEmpTest@37858383]" started-at="2020-01-25T13:35:27 EST" name="generateReports" finished-at="2020-01-25T13:35:28 EST" duration-ms="306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReports -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.hrms.testcases.AddEmpTest@37858383]" started-at="2020-01-25T13:35:28 EST" name="setUp" finished-at="2020-01-25T13:35:40 EST" duration-ms="12678" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="AddEmpValidation()[pri:0, instance:com.hrms.testcases.AddEmpTest@37858383]" started-at="2020-01-25T13:35:40 EST" name="AddEmpValidation" finished-at="2020-01-25T13:35:55 EST" duration-ms="14928" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddEmpValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.hrms.testcases.AddEmpTest@37858383]" started-at="2020-01-25T13:35:56 EST" name="tearDown" finished-at="2020-01-25T13:35:56 EST" duration-ms="739" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="completeReport()[pri:0, instance:com.hrms.testcases.AddEmpTest@37858383]" started-at="2020-01-25T13:36:25 EST" name="completeReport" finished-at="2020-01-25T13:36:25 EST" duration-ms="301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- completeReport -->
+      </class> <!-- com.hrms.testcases.AddEmpTest -->
+      <class name="com.hrms.testcases.LoginPagesTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.hrms.testcases.LoginPagesTest@2892dae4]" started-at="2020-01-25T13:35:56 EST" name="setUp" finished-at="2020-01-25T13:36:18 EST" duration-ms="21817" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="negativeLogin()[pri:0, instance:com.hrms.testcases.LoginPagesTest@2892dae4]" started-at="2020-01-25T13:36:18 EST" name="negativeLogin" finished-at="2020-01-25T13:36:24 EST" duration-ms="5277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.hrms.testcases.LoginPagesTest@2892dae4]" started-at="2020-01-25T13:36:24 EST" name="tearDown" finished-at="2020-01-25T13:36:25 EST" duration-ms="687" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.hrms.testcases.LoginPagesTest -->
+    </test> <!-- Regression Test -->
+  </suite> <!-- Regression Suite -->
+</testng-results>

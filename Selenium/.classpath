@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
+	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-11">
 		<attributes>
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="lib" path="Lib/client-combined-3.141.59.jar"/>
 	<classpathentry kind="lib" path="Lib/selenium-server-standalone-3.141.59.jar"/>
 	<classpathentry kind="lib" path="Lib/junit-4.10.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ybtib/Downloads/ashot-1.5.4.jar"/>
+	<classpathentry kind="lib" path="D:/eclipsejava-2019-06/Selenium/Lib/commons-io-2.6.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
